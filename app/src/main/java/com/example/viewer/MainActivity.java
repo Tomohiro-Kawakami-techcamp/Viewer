@@ -2,6 +2,7 @@ package com.example.viewer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -18,5 +19,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        ListView listView = (ListView)parent;
+        String item = (String)listView.getItemAtPosition(position);
+        Intent intent = new Intent(this, ViewerItemActivity.class);
+        intent.putExtra("PICT", item);
+        startActivity(intent);
     }
 }
