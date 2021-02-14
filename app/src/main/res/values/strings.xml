@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Viewer</string>
+
+    <string-array name="picture_name">
+        <item>マリノスケ</item>
+        <item>チャンピオンフラッグ1</item>
+        <item>チャンピオンフラッグ2</item>
+    </string-array>string-array>
 </resources>
