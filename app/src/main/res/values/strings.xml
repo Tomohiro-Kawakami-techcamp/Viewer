@@ -6,4 +6,7 @@
         <item>チャンピオンフラッグ1</item>
         <item>チャンピオンフラッグ2</item>
     </string-array>string-array>
+    <string name="desc">画像の説明</string>
+    <string name="backbtn_name">前の画面に戻る</string>
+    <string name="emailbtn_name">Eメールで問い合わせる</string>
 </resources>
